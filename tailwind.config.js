@@ -10,8 +10,12 @@ module.exports = {
       backgroundImage: {
       },
       fontFamily: {
-        'roboto': ["Raleway", "sans-serif"],
-        'open': ["Open Sans", "sans-serif"],
+        'manrope': ["Manrope", "sans-serif"],
+        'poppins': ["Poppins", "sans-serif"],
+      },
+      colors : {
+        primary: '#FA6642',
+        secondary: '#097895'
       },
     },
   },
