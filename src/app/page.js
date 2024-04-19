@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero/Hero";
+import Mission from "@/components/Mission/Mission";
 import Navbar from "@/components/Navbar/Navbar";
 import React from "react";
 
@@ -13,6 +14,8 @@ export default function Home() {
           <img className='absolute top-0 transition ease-in duration-200  -z-30 image w-full object-cover' width='' src="https://miracle.sirv.com/kachem-young-initiative/banner%20screen.png" alt="" />
           </div>
           <Hero/>
+
+          <Mission/>
       </div>
     </main>
   );
