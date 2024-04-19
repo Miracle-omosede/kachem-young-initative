@@ -1,6 +1,8 @@
+import GiveScholarship from "@/components/GiveScholarship/GiveScholarship";
 import Hero from "@/components/Hero/Hero";
 import Mission from "@/components/Mission/Mission";
 import Navbar from "@/components/Navbar/Navbar";
+import Projects from "@/components/Projects/Projects";
 import React from "react";
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
           <Hero/>
 
           <Mission/>
+          <Projects/>
+          <GiveScholarship/>
       </div>
     </main>
   );

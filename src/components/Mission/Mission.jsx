@@ -77,7 +77,7 @@ const Mission = () => {
         <div className="mt-[120px]">
             <h1 className="flex items-center text-center justify-center mb-[84px] font-poppins text-[40px] font-bold">Our Memories</h1>
 
-            <div className=" w-full mx-auto max-w-[1140px] flex flex-row">
+            <div className=" w-full mx-auto max-w-[1140px] flex flex-col gap-[18px]">
                 <div className="flex gap-[18px] flex-wrap md:flex-nowrap">
                     <div className="h-[210px] w-[360px] flex items-center justify-center px-[15px] py-[30px] bg-[#9747ff42] rounded-[8px]">
                         <p className="text-black font-poppins text-[16px]">
@@ -89,6 +89,34 @@ const Mission = () => {
                     </div>
                     <div className="h-[210px]">
                         <img src="https://miracle.sirv.com/kachem-young-initiative/Frame%2039.png"  className="h-[210px] rounded-[8px] object-cover"/>
+                    </div>
+                </div>
+                <div className="flex gap-[18px] flex-wrap md:flex-nowrap">
+                <div className="h-[210px]">
+                        <img src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%2037.png"  className="h-[210px] rounded-[8px] object-cover"/>
+                    </div>
+                    <div className="h-[210px] w-[360px] flex items-center justify-center px-[15px] py-[30px] bg-[#f7500952] rounded-[8px]">
+                        <p className="text-black font-poppins text-[16px]">
+                        <b>Empathy </b>is a fundamental principle in our operations. We recognize the importance of understanding the challenges faced by grassroots people and developing solutions that address their specific needs.
+                        </p>
+                    </div>
+                    <div className="h-[210px]">
+                        <img src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%2036.png"  className="h-[210px] rounded-[8px] object-cover"/>
+                    </div>
+                </div>
+                <div className="flex gap-[18px] flex-wrap md:flex-nowrap">
+                <div className="h-[210px]">
+                        <img src="https://miracle.sirv.com/kachem-young-initiative/Frame%2040.png"  className="h-[210px] rounded-[8px] object-cover"/>
+                    </div>
+                    
+                    <div className="h-[210px]">
+                        <img src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%2038.png"  className="h-[210px] rounded-[8px] object-cover"/>
+                    </div>
+
+                    <div className="h-[210px] w-[360px] flex items-center justify-center px-[15px] py-[30px] bg-[#09799561] rounded-[8px]">
+                        <p className="text-black font-poppins text-[16px]">
+                        <b>Sacrifice</b> is a fundamental principle in our operations. We recognize the importance of understanding the challenges faced by grassroots people and developing solutions that address their specific needs.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -13,3 +13,10 @@
     height: 100vh;
     z-index: -9999;
 }
+
+.scholarship-bg-image {
+    background-image: url('https://miracle.sirv.com/kachem-young-initiative/Scholarship.png');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
