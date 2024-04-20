@@ -1,8 +1,11 @@
 import GiveScholarship from "@/components/GiveScholarship/GiveScholarship";
 import Hero from "@/components/Hero/Hero";
+import JoinUs from "@/components/JoinUs/JoinUs";
 import Mission from "@/components/Mission/Mission";
 import Navbar from "@/components/Navbar/Navbar";
+import Partnership from "@/components/Partnerships/Partnership";
 import Projects from "@/components/Projects/Projects";
+import Testimonial from "@/components/Testimonials/Testimonial";
 import React from "react";
 
 export default function Home() {
@@ -20,6 +23,9 @@ export default function Home() {
           <Mission/>
           <Projects/>
           <GiveScholarship/>
+          <JoinUs/>
+          <Testimonial/>
+          <Partnership/>
       </div>
     </main>
   );
