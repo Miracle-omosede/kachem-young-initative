@@ -95,7 +95,7 @@ const Form = () => {
           className="w-full px-3 py-2 border border-[#097895] rounded-md focus:outline-none focus:border-[black]"
         ></textarea>
       </div>
-      <button type="submit" className="bg-[#097895] text-white py-2 px-4 w-full rounded-md hover:bg-green-700 focus:outline-none focus:bg-green-700">Send</button>
+      <button type="submit" className="bg-[#097895] text-white py-2 px-4 w-full rounded-md hover:bg-[#097895] focus:outline-none focus:bg-[#097895]">Send</button>
     </form>
   );
 };

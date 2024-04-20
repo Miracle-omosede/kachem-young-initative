@@ -28,7 +28,7 @@ const Partnership = () => {
     </div>
   </div>
 
-  <div className='grid grid-cols-12'>
+  <div className='grid grid-cols-12 py-[49px] px-[256px] bg-[#eff2f5]'>
     <div className='col-span-6'>
         <Form/>
     </div>
