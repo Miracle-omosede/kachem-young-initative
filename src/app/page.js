@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import GiveScholarship from "@/components/GiveScholarship/GiveScholarship";
 import Hero from "@/components/Hero/Hero";
 import JoinUs from "@/components/JoinUs/JoinUs";
@@ -26,6 +27,7 @@ export default function Home() {
           <JoinUs/>
           <Testimonial/>
           <Partnership/>
+          <Footer/>
       </div>
     </main>
   );

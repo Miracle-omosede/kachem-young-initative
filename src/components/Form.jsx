@@ -30,9 +30,11 @@ const Form = () => {
         <label htmlFor="name" className="block mb-2 text-gray-700">Name</label>
         <div className="relative">
           <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-            <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21v-3m0 0V9a5 5 0 0 1 5-5h3a5 5 0 0 1 5 5v9m0 0v3m0-3h-6m3 0c1.552 0 2.5-1.5 2.5-3s-1-3-2.5-3S10 16.5 10 18s1 3 2.5 3z"></path>
-            </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[#979797]">
+  <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clipRule="evenodd" />
+</svg>
+
+
           </span>
           <input
             type="text"
@@ -49,9 +51,11 @@ const Form = () => {
         <label htmlFor="email" className="block mb-2 text-gray-700">Email</label>
         <div className="relative">
           <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-            <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 6.586l-8 5.333-8-5.333M5.333 8L12 13l6.667-5M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
-            </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 text-[#979797]">
+  <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+  <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+</svg>
+
           </span>
           <input
             type="email"
@@ -60,7 +64,7 @@ const Form = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="abc@gmail.com"
-            className="w-full px-3 py-2 pl-10 border  border-[#097895] rounded-md focus:outline-none focus:border-[black]"
+            className="w-full px-3 py-2 pl-10 border border-[#097895] rounded-md focus:outline-none focus:border-[black]"
           />
         </div>
       </div>
@@ -68,9 +72,10 @@ const Form = () => {
         <label htmlFor="phone" className="block mb-2 text-gray-700">Phone Number</label>
         <div className="relative">
           <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-            <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h18v18H3V3zm3 0v18m12-18v18M6 10h12"></path>
-            </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4  text-[#979797]">
+  <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
+</svg>
+
           </span>
           <input
             type="tel"

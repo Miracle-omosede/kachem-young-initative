@@ -9,6 +9,10 @@
     background: hsla(0, 0%, 0%, 0.3);
 }
 
+.navbar-bg-white{
+    background-color: white;
+}
+
 .image {
     height: 100vh;
     z-index: -9999;
@@ -19,4 +23,11 @@
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .scholarship-bg-image {
+        background-size: cover;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://miracle.sirv.com/kachem-young-initiative/Scholarship.png');
+    }
 }

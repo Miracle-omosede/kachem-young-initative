@@ -3,13 +3,13 @@ import React from 'react'
 const Projects = () => {
   return (
     <div>
-      <div className='mt-[120px]'>
+      <div className='md:mt-[120px] mt-[8rem]'>
         <h1 className="flex items-center text-center justify-center mb-[84px] font-poppins text-[40px] font-bold">Our Projects</h1>
       </div>
 
       <div className='max-w-[1140px] mx-auto w-full font-poppins'>
-        <div className='grid grid-cols-12 gap-[31px]'>
-          <div className='col-span-8 flex flex-col gap-[64px]'>
+        <div className='grid grid-cols-12 md:px-0 px-5 gap-[31px]'>
+          <div className=' row-start-2 col-span-12 md:col-span-8 flex flex-col gap-10 md:gap-[64px]'>
             <div className='flex flex-col gap-[25px]'>
               <h1 className='font-semibold text-[24px]'>Community Development </h1>
               <p className='text-[16px]'>
@@ -136,7 +136,7 @@ const Projects = () => {
               </div>
              </div>
           </div>
-          <div className='col-span-4'>
+          <div className='md:row-start-2 row-start-1 col-span-12 md:col-span-4'>
             <img src='https://miracle.sirv.com/kachem-young-initiative/Rectangle%205.png'/>
           </div>
         </div>

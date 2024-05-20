@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <div className='mt-[100px] mx-auto max-w-[1140px] w-full font-poppins'>
+    <div className='mt-[100px] mx-auto max-w-[1140px] w-full font-poppins flex flex-col md:gap-0 gap-20 '>
           <div className='mt-[85px]'>
         <h1 className="flex items-center text-center justify-center mb-[15px] font-poppins text-[40px] font-bold">Our Testimonials</h1>
         <p className='font-poppins text-[23px] text-center mb-[25px]'>
@@ -10,9 +10,10 @@ const Testimonial = () => {
         </p>
         </div>
 
-        <div className='grid grid-cols-12'>
-            <div className='col-span-6 gap-6 flex flex-col'>
-                <h2 className='font-semibold text-secondary capitalize text-[32px]'>
+       <div>
+       <div className='grid grid-cols-12 px-5 md:px-0'>
+            <div className='md:col-span-6 col-span-12 gap-6 flex flex-col'>
+                <h2 className='font-semibold text-secondary capitalize md:text-[32px] text-[20px]'>
                 I get to achieve my dreams and help my family too
                 </h2>
 
@@ -27,14 +28,14 @@ const Testimonial = () => {
                     </p>
                 </div>
             </div>
-            <div className='col-span-6 flex items-center justify-center'>
+            <div className='col-span-12 md:py-0 py-10 md:col-span-6 flex items-center justify-center'>
             <img src='https://miracle.sirv.com/kachem-young-initiative/Photo.png'/>
             </div>
 
         </div>
 
-        <div className='flex'>
-        <div className='flex items-center justify-center'>
+        <div className='flex w-full '>
+        <div className='flex items-center justify-center md:w-auto md:px-0 w-full px-5'>
         <a
         href=""
         className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-secondary bg-white border-secondary border capitalize font-manrope gap-1"
@@ -120,6 +121,9 @@ const Testimonial = () => {
       </a>
         </div>
         </div>
+       </div>
+
+        
     </div>
   )
 }
