@@ -6,7 +6,7 @@ const AboutHeader = () => {
   return (
     <div>
       <div className="relative mx-auto max-w-[1140px] w-full px-5">
-        <div className="pt-[100px]">
+        <div className="md:pt-[100px]">
           <h1 className="text-[48px] font-semibold font-poppins text-center text-black pt-[148px] pb-[56px]">
             Reconciling young minds to purpose.
           </h1>

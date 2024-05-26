@@ -32,16 +32,16 @@ const Navbar = () => {
               onClick={() => setShowNav(!showNav)}
             >
               <div
-                className={`w-[23px] h-[2px] transition ease-in duration-150 bg-white mb-1 ${
+                className={`w-[23px] h-[2px] transition ease-in duration-150 bg-black mb-1 ${
                   showNav ? "rotate-45 mb-0 translate-y-[5px]" : "rotate-0 mb-1"
                 }`}
               ></div>
               <div
-                className={`w-[23px] h-[2px] transition ease-in duration-150 bg-white mb-1 
+                className={`w-[23px] h-[2px] transition ease-in duration-150 bg-black mb-1 
                         ${showNav ? "hidden mb-0" : "mb-1"}`}
               ></div>
               <div
-                className={`w-[23px] h-[2px] transition ease-in duration-150 bg-white ${
+                className={`w-[23px] h-[2px] transition ease-in duration-150 bg-black ${
                   showNav ? "-rotate-45 mb-0" : "rotate-0"
                 }`}
               ></div>
@@ -58,7 +58,7 @@ const Navbar = () => {
             <div className="flex max-lg:flex-col lg:items-center max-sm:w-10/12 max-sm:mx-auto sm:ml-auto max-lg:w-[320px] lg:w-full max-lg:max-h-[500px] overflow-y-auto lg:mb-0 max-lg:bg-white max-lg:rounded-lg lg:justify-between md:shadow-none shadow-xl">
               <nav className="mt-0 px-3 lg:px-6 text-[15.5px] mb-0 max-lg:py-10 max-lg:px-5">
                 <ul
-                  className="flex lg:items-center lg:space-x-5 max-lg:flex-col max-lg:text-[#fff] max-lg:text-[16px] 
+                  className="flex lg:items-center lg:space-x-5 max-lg:flex-col max-lg:text-[black] max-lg:text-[16px] 
                             max-lg:font-medium  max-lg:space-y-6 max-lg:h-auto overflow-y-auto"
                 >
                   <li className="capitalize">
