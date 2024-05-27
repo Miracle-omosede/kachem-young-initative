@@ -9,7 +9,7 @@ const Partnership = () => {
           <h1 className="flex items-center text-center justify-center mb-[15px] font-poppins text-[40px] font-bold">
             Our Partnerships
           </h1>
-          <p className="font-poppins md:text-[23px] text-[17px] font-[600] text-center mb-[25px]">
+          <p className="font-poppins md:text-[23px] text-[16px] tracking-wide text-center mb-[25px]">
             Over the years, we have identified and worked with several brands
             and organisations that share our mission amd passion to provide
             better opportunities for less opportune people especially women,

@@ -4,7 +4,7 @@ const JoinUs = () => {
   return (
     <div className="mt-[100px] mx-auto max-w-[1140px] w-full font-poppins md:px-0 px-5">
       <div className="mt-[85px]">
-        <h1 className="flex items-center text-center justify-center mb-[45px] font-poppins text-[40px] font-bold">
+        <h1 className="flex items-center text-center justify-center md:mb-[45px] mb-[1rem] font-poppins text-[40px] font-bold">
           Join Us
         </h1>
         <p className="font-poppins md:text-[23px] text-[17px] text-center md:font-medium tracking-wide">
