@@ -7,7 +7,7 @@ const JoinUs = () => {
         <h1 className="flex items-center text-center justify-center mb-[45px] font-poppins text-[40px] font-bold">
           Join Us
         </h1>
-        <p className="font-poppins md:text-[23px] text-[17px] text-center md:font-medium font-semibold">
+        <p className="font-poppins md:text-[23px] text-[17px] text-center md:font-medium tracking-wide">
           By promoting inclusive literacy at the grassroots level. We envision a
           future where every individual, regardless of their background or
           circumstances, has the opportunity to learn and grow, and where access
@@ -19,19 +19,19 @@ const JoinUs = () => {
         <div className="col-span-12 md:col-span-7">
           <img
             src="https://miracle.sirv.com/kachem-young-initiative/Group%2048095557.png"
-            className="w-[668px] md:h-[476px] object-cover rounded-[8px] cursor-pointer"
+            className="md:w-[668px] w-full md:h-[476px] object-cover rounded-[8px] cursor-pointer"
           />
         </div>
         <div className="col-span-12 md:col-span-5 md:px-0 px-5">
-          <div className="flex items-center justify-center h-full flex-col md:flex-wrap ">
+          <div className="flex items-center justify-center h-full flex-col md:flex-wrap">
             <div className="flex items-center md:items-start justify-center flex-col flex-wrap gap-[20px]">
-              <p className="text-[17px] font-semibold md:font-normal">
+              <p className="text-[17px] tracking-wide font-poppins md:font-normal">
                 Would you like to join the KYI cause? You can join us or
                 contribute by clicking on any of the buttons below -{" "}
               </p>
 
               <div className="flex flex-col items-center justify-center gap-[20px]">
-                <div className="flex flex-row gap-2 md:gap-[41px] text-nowrap">
+                <div className="flex md:flex-row flex-col gap-2 md:gap-[41px] text-nowrap">
                   <a
                     href=""
                     className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-1"
@@ -144,7 +144,7 @@ const JoinUs = () => {
                   </a>
                 </div>
 
-                <div className="flex flex-row text-nowrap  gap-2 md:gap-[41px]">
+                <div className="flex flex-col md:flex-row text-nowrap  gap-2 md:gap-[41px]">
                   <a
                     href=""
                     className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-[#fff] bg-primary capitalize font-manrope gap-2"

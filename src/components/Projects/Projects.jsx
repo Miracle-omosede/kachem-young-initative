@@ -9,14 +9,14 @@ const Projects = () => {
         </h1>
       </div>
 
-      <div className="max-w-[1140px] mx-auto w-full font-poppins">
+      <div className="md:max-w-[1140px] mx-auto w-full font-poppins">
         <div className="grid grid-cols-12 md:px-0 px-5 gap-[31px]">
           <div className=" row-start-2 col-span-12 md:col-span-8 flex flex-col gap-10 md:gap-[64px]">
             <div className="flex flex-col gap-[25px]">
               <h1 className="font-semibold text-[24px]">
                 Community Development{" "}
               </h1>
-              <p className="md:text-[16px] font-[600] text-justify">
+              <p className="md:text-[18px] text-[16px] tracking-wide">
                 A community Development Acceleration project, designed to
                 manually evaluate our impact across host communities, literacy
                 centres and to galvanize community collaboration towards a
@@ -163,7 +163,9 @@ const Projects = () => {
             </div>
           </div>
           <div className="md:row-start-2 row-start-1 col-span-12 md:col-span-4">
-            <img src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%205.png" />
+            <div className="flex items-center justify-center w-full">
+            <img src="https://miracle.sirv.com/kachem-young-initiative/Rectangle%205.png" className="w-full" />
+            </div>
           </div>
         </div>
       </div>
