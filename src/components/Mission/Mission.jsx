@@ -1,8 +1,14 @@
+"use client"
 import React from "react";
+import { useState } from "react";
+import CountUP from "react-countup"
+import ScrollTrigger from "react-scroll-trigger";
 
 const Mission = () => {
+  const [counterOn, setCounterOn] = useState(false);
   return (
-    <div>
+    <ScrollTrigger onEnter={()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
+      <div>
       <div className="pt-[5rem] md:px-0 px-5 md:pt-[147px] max-w-[1140px] w-full mx-auto flex flex-col gap-[104px]">
         <div>
           <p className="text-black text-[18px] md:text-[26px] font-poppins md:font-medium font-[600] text-center ">
@@ -19,17 +25,23 @@ const Mission = () => {
                 <div className="md:h-[417px] flex flex-col md:items-start items-center justify-center">
                     <div className="flex flex-col items-center justify-center relative">
                     <div className="">
-                    <span className="md:text-[40px] text-[60px] font-semibold">6</span>
+                    <span className="md:text-[40px] text-[60px] font-semibold">
+                    {counterOn && <CountUP start={0} end={6} duration={2} delay={0}/>}
+                    </span>
                     <p className="text-[12px] md:text-[16px]">years of operation</p>
                   </div>
                   <div className="h-[1px] w-[80px] bg-slate-500 my-[15px]"></div>
                   <div>
-                    <span className="md:text-[40px] text-[60px] font-semibold">20</span>
+                    <span className="md:text-[40px] text-[60px] font-semibold">
+                      <CountUP start={0} end={20} duration={2} delay={0}/>
+                    </span>
                     <p className="md:text-[16px] text-[12px]">empowerment programs</p>
                   </div>
                   <div className="h-[1px] w-[80px] bg-slate-500 my-[15px]"></div>
                   <div>
-                    <span className="md:text-[40px] text-[60px] font-semibold">100</span>
+                    <span className="md:text-[40px] text-[60px] font-semibold">
+                    <CountUP start={0} end={100} duration={2} delay={0}/>
+                    </span>
                     <p className="md:text-[16px] text-[12px]">empowered persons</p>
                   </div>
 
@@ -123,6 +135,7 @@ const Mission = () => {
         </div>
       </div>
     </div>
+    </ScrollTrigger>
   );
 };
 
