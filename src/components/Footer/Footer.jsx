@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="h-[1px] w-full bg-white"></div>
       <div className="md:mb-[12px] mx-auto py-5 md:px-0 px-5 max-w-[1140px] font-poppins">
         <div className="flex gap-6 md:gap-0 md:items-center md:flex-row  flex-col-reverse justify-between">
-            <span className="font-manrope text-white">© 2023 Kachem Young Initiativ. All rights reserved</span>
+            <span className="font-manrope text-white text-[12px]">© 2023 Kachem Young Initiative. All rights reserved</span>
             <div>
             <ul className="flex flex-row gap-5 font-manrope text-white">
               <li className="py-4 px-4 flex items-center justify-center rounded-full bg-[#ffffff22]">

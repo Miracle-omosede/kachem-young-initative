@@ -55,10 +55,10 @@ const Navbar = () => {
                 : "max-lg:max-h-0 max-lg:scale-y-50 max-lg:translate-y-1/4"
             }`}
           >
-            <div className="flex max-lg:flex-col lg:items-center max-sm:w-full max-sm:mx-auto sm:ml-auto max-lg:w-full lg:w-full max-lg:max-h-[500px] overflow-y-auto lg:mb-0 max-lg:bg-white max-lg:rounded-lg lg:justify-between md:shadow-none shadow-xl">
+            <div className="flex max-lg:flex-col lg:items-center max-sm:w-full max-sm:mx-auto sm:ml-auto max-lg:w-full lg:w-full    max-lg:max-h-[500px] overflow-y-auto lg:mb-0 max-lg:bg-white max-lg:rounded-lg lg:justify-between md:shadow-none shadow-xl">
               <nav className="mt-0 px-3 lg:px-6 text-[15.5px] mb-0 max-lg:py-10 max-lg:px-5">
                 <ul
-                  className="flex lg:items-center lg:space-x-5 max-lg:flex-col max-lg:text-[black] max-lg:text-[16px] 
+                  className="flex lg:items-center lg:space-x-5 max-lg:flex-col max-lg:text-[black] max-lg:text-[20px] text-[18px]
                             max-lg:font-medium  max-lg:space-y-6 max-lg:h-auto overflow-y-auto"
                 >
                   <li className="capitalize text-right font-bold">
