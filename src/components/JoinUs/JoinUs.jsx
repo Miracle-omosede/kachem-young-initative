@@ -7,7 +7,7 @@ const JoinUs = () => {
         <h1 className="flex items-center text-center justify-center mb-[45px] font-poppins text-[40px] font-bold">
           Join Us
         </h1>
-        <p className="font-poppins md:text-[23px] text-[20px] text-center">
+        <p className="font-poppins md:text-[23px] text-[17px] text-center md:font-medium font-semibold">
           By promoting inclusive literacy at the grassroots level. We envision a
           future where every individual, regardless of their background or
           circumstances, has the opportunity to learn and grow, and where access
@@ -25,7 +25,7 @@ const JoinUs = () => {
         <div className="col-span-12 md:col-span-5 md:px-0 px-5">
           <div className="flex items-center justify-center h-full flex-col md:flex-wrap ">
             <div className="flex items-center md:items-start justify-center flex-col flex-wrap gap-[20px]">
-              <p className="text-[18px]">
+              <p className="text-[17px] font-semibold md:font-normal">
                 Would you like to join the KYI cause? You can join us or
                 contribute by clicking on any of the buttons below -{" "}
               </p>

@@ -9,7 +9,7 @@ const Partnership = () => {
           <h1 className="flex items-center text-center justify-center mb-[15px] font-poppins text-[40px] font-bold">
             Our Partnerships
           </h1>
-          <p className="font-poppins text-[23px] text-center mb-[25px]">
+          <p className="font-poppins md:text-[23px] text-[17px] font-[600] text-center mb-[25px]">
             Over the years, we have identified and worked with several brands
             and organisations that share our mission amd passion to provide
             better opportunities for less opportune people especially women,
@@ -56,8 +56,8 @@ const Partnership = () => {
         <div className="col-span-12 md:col-span-6 md:pb-0 pb-[90px]">
           <Form />
         </div>
-        <div className="col-span-12 md:col-span-6 h-full items-center justify-center">
-          <div className="font-poppins flex flex-col justify-center h-full gap-7 md:py-0  ">
+        <div className="col-span-12 md:col-span-6 h-full items-center justify-center text-[17px] ">
+          <div className="font-poppins flex flex-col justify-center h-full gap-7 md:py-0">
             <div className="flex flex-col gap-[25px]">
               <div className="text-black">
                 <b>Address:</b> No. 50 Ezza Road, Abakaliki, Ebonyi State,<br/>
@@ -70,8 +70,26 @@ const Partnership = () => {
 
             <div className="w-full h-[1px] bg-[#D9D9D9]"></div>
 
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-row gap-5">
+            <div className="flex flex-col gap-4 md:text-[17px] text-[14px] tracking-wider">
+            <div className="flex flex-row gap-5 items-center">
+                <span>
+                  <svg
+                    width="28"
+                    height="20"
+                    viewBox="0 0 28 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.3333 13.9998L18.2533 9.99984L11.3333 5.99984V13.9998ZM26.7466 3.55984C26.92 4.1865 27.04 5.0265 27.12 6.09317C27.2133 7.15984 27.2533 8.07984 27.2533 8.87984L27.3333 9.99984C27.3333 12.9198 27.12 15.0665 26.7466 16.4398C26.4133 17.6398 25.64 18.4132 24.44 18.7465C23.8133 18.9198 22.6666 19.0398 20.9066 19.1198C19.1733 19.2132 17.5866 19.2532 16.12 19.2532L14 19.3332C8.41329 19.3332 4.93329 19.1198 3.55996 18.7465C2.35996 18.4132 1.58663 17.6398 1.25329 16.4398C1.07996 15.8132 0.959959 14.9732 0.879959 13.9065C0.786626 12.8398 0.746626 11.9198 0.746626 11.1198L0.666626 9.99984C0.666626 7.07984 0.879959 4.93317 1.25329 3.55984C1.58663 2.35984 2.35996 1.5865 3.55996 1.25317C4.18663 1.07984 5.33329 0.959837 7.09329 0.879837C8.82663 0.786504 10.4133 0.746504 11.88 0.746504L14 0.666504C19.5866 0.666504 23.0666 0.879837 24.44 1.25317C25.64 1.5865 26.4133 2.35984 26.7466 3.55984V3.55984Z"
+                      fill="#101010"
+                    />
+                  </svg>
+                </span>
+
+                <span>@kachemyounginitiative1224</span>
+              </div>
+              <div className="flex flex-row gap-5 items-center">
                 <span>
                   <svg
                     width="32"
@@ -88,7 +106,7 @@ const Partnership = () => {
                 </span>
                 <span>Kachemyounginitiative@gmail.org</span>
               </div>
-              <div className="flex flex-row gap-5">
+              <div className="flex flex-row gap-5 items-center">
                 <span>
                   <svg
                     width="32"
@@ -107,11 +125,11 @@ const Partnership = () => {
                 <span>@Kachemyoungini1</span>
               </div>
 
-              <div className="flex flex-row gap-5">
+              <div className="flex flex-row gap-5 items-center">
                 <span>
                   <svg
-                    width="32"
-                    height="32"
+                    width="25"
+                    height="25"
                     viewBox="0 0 32 32"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +144,7 @@ const Partnership = () => {
                 <span>@KACHEM YOUNG INITIATIVE (KYI)</span>
               </div>
 
-              <div className="flex flex-row gap-5">
+              <div className="flex flex-row gap-5 items-center">
                 <span>
                   <svg
                     width="32"
@@ -145,7 +163,7 @@ const Partnership = () => {
                 <span>@Kachem young initiative</span>
               </div>
 
-              <div className="flex flex-row gap-5">
+              <div className="flex flex-row gap-5 items-center">
                 <span>
                   <svg
                     width="32"
@@ -162,24 +180,6 @@ const Partnership = () => {
                 </span>
 
                 <span>@KACHEM YOUNG INITIATIVE</span>
-              </div>
-              <div className="flex flex-row gap-5">
-                <span>
-                  <svg
-                    width="28"
-                    height="20"
-                    viewBox="0 0 28 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11.3333 13.9998L18.2533 9.99984L11.3333 5.99984V13.9998ZM26.7466 3.55984C26.92 4.1865 27.04 5.0265 27.12 6.09317C27.2133 7.15984 27.2533 8.07984 27.2533 8.87984L27.3333 9.99984C27.3333 12.9198 27.12 15.0665 26.7466 16.4398C26.4133 17.6398 25.64 18.4132 24.44 18.7465C23.8133 18.9198 22.6666 19.0398 20.9066 19.1198C19.1733 19.2132 17.5866 19.2532 16.12 19.2532L14 19.3332C8.41329 19.3332 4.93329 19.1198 3.55996 18.7465C2.35996 18.4132 1.58663 17.6398 1.25329 16.4398C1.07996 15.8132 0.959959 14.9732 0.879959 13.9065C0.786626 12.8398 0.746626 11.9198 0.746626 11.1198L0.666626 9.99984C0.666626 7.07984 0.879959 4.93317 1.25329 3.55984C1.58663 2.35984 2.35996 1.5865 3.55996 1.25317C4.18663 1.07984 5.33329 0.959837 7.09329 0.879837C8.82663 0.786504 10.4133 0.746504 11.88 0.746504L14 0.666504C19.5866 0.666504 23.0666 0.879837 24.44 1.25317C25.64 1.5865 26.4133 2.35984 26.7466 3.55984V3.55984Z"
-                      fill="#101010"
-                    />
-                  </svg>
-                </span>
-
-                <span>@kachemyounginitiative1224</span>
               </div>
             </div>
           </div>

@@ -25,7 +25,7 @@ const Form = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className=" max-w-md mx-auto mt-8 font-poppins">
+    <form onSubmit={handleSubmit} className=" max-w-md mx-auto mt-8 font-poppins font-semibold text-[17px]">
       <div className="mb-6">
         <label htmlFor="name" className="block mb-2 text-gray-700">Name</label>
         <div className="relative">

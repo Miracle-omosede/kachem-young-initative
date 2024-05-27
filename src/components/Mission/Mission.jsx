@@ -14,23 +14,23 @@ const Mission = () => {
 
         <div>
           <div className="text-black font-poppins text-center md:px-[61px] px-5 grid grid-cols-12">
-            <div className="col-span-12 md:col-span-5">
+            <div className="col-span-12 md:col-span-5 font-poppins">
               <div>
                 <div className="md:h-[417px] flex flex-col md:items-start items-center justify-center">
                     <div className="flex flex-col items-center justify-center relative">
                     <div className="">
                     <span className="md:text-[40px] text-[60px] font-semibold">6</span>
-                    <p className="text-[16px]">years of operation</p>
+                    <p className="text-[12px] md:text-[16px]">years of operation</p>
                   </div>
                   <div className="h-[1px] w-[80px] bg-slate-500 my-[15px]"></div>
                   <div>
                     <span className="md:text-[40px] text-[60px] font-semibold">20</span>
-                    <p className="text-[16px]">empowerment programs</p>
+                    <p className="md:text-[16px] text-[12px]">empowerment programs</p>
                   </div>
                   <div className="h-[1px] w-[80px] bg-slate-500 my-[15px]"></div>
                   <div>
                     <span className="md:text-[40px] text-[60px] font-semibold">100</span>
-                    <p className="text-[16px]">empowered persons</p>
+                    <p className="md:text-[16px] text-[12px]">empowered persons</p>
                   </div>
 
                     </div>

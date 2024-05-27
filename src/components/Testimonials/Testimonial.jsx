@@ -3,16 +3,16 @@ import React from 'react'
 const Testimonial = () => {
   return (
     <div className='mt-[100px] mx-auto max-w-[1140px] w-full font-poppins flex flex-col md:gap-0 gap-20 '>
-          <div className='mt-[85px]'>
+          <div className='mt-[85px] px-5'>
         <h1 className="flex items-center text-center justify-center mb-[15px] font-poppins text-[40px] font-bold">Our Testimonials</h1>
-        <p className='font-poppins text-[23px] text-center mb-[25px]'>
+        <p className='font-poppins md:text-[23px] font-semibold text-[17px] text-center mb-[25px]'>
         See what our beneficiaries have to say about us
         </p>
         </div>
 
        <div>
        <div className='grid grid-cols-12 px-5 md:px-0'>
-            <div className='md:col-span-6 col-span-12 gap-6 flex flex-col'>
+            <div className='md:col-span-6 col-span-12 gap-6 flex flex-col font-poppins'>
                 <h2 className='font-semibold text-secondary capitalize md:text-[32px] text-[20px]'>
                 I get to achieve my dreams and help my family too
                 </h2>
@@ -23,7 +23,7 @@ const Testimonial = () => {
                 </div>
 
                 <div className='pl-[18px] border-l-4 border-secondary'>
-                    <p className='text-[14px]'>
+                    <p className='text-[15px] md:text-[14px]'>
                     I finished secondary school but wasn’t able to afford to sit for the Joint Admissions and Matriculations Board exams, JAMB. I joined KYI and started to attend the weekly mentorship classes where I learnt how to make footwear. KYI gave me the opportunity to learn a free skill in three months. I wish to go back to school, so from making footwear, I can save up money for school while also helping my family. 
                     </p>
                 </div>
@@ -40,7 +40,7 @@ const Testimonial = () => {
         href=""
         className="flex flex-row items-center w-full  justify-center text-[16px] py-2 px-6 max-md:mt-4 rounded-[8px] text-secondary bg-white border-secondary border capitalize font-manrope gap-1"
       >
-        <span className="flex items-center justify-center">View testimonial videos</span>
+        <span className="flex items-center justify-center font-[600]">View testimonial videos</span>
         {/* <span className="flex items-center justify-center">
           <svg
             width="30"

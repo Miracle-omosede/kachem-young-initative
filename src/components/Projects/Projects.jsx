@@ -30,7 +30,7 @@ const Projects = () => {
             </div>
 
             {/* progress bar */}
-            <div>
+            <div className="md:text-[16px] text-[12px]">
               <div className="flex flex-row justify-between items-center my-2">
                 <span>Donations</span>
                 <span>0%</span>
