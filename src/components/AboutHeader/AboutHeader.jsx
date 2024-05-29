@@ -5,12 +5,12 @@ import Footer from "../Footer/Footer";
 const AboutHeader = () => {
   return (
     <div>
-      <div className="relative mx-auto max-w-[1140px] w-full px-5">
+      <div className="relative mx-auto max-w-[1140px] w-full px-5 poppins-regular">
         <div className="md:pt-[100px]">
-          <h1 className="text-[48px] font-semibold font-poppins text-center text-black pt-[148px] pb-[56px]">
+          <h1 className="text-[48px] font-semibold font-poppins text-center text-black pt-[148px] md:pb-[56px] pb-10 leading-tight">
             Reconciling young minds to purpose.
           </h1>
-          <p className="text-[22px] font-medium text-center font-poppins">
+          <p className="text-[17px] md:text-[22px] font-medium text-center font-poppins">
             Through education, mentorship, and personal development, we strive
             to instill in young minds a sense of purpose and direction,
             equipping them with the knowledge, skills, and mindset needed to
@@ -20,7 +20,7 @@ const AboutHeader = () => {
         </div>
 
         {/* Hero Bento Grid */}
-        <div className="pt-[145px] pb-[80px]">
+        <div className="md:pt-[145px] pt-10 md:pb-[80px] pb-10">
           <div className="grid grid-cols-12 gap-[30px]">
             <div className="md:col-span-8 col-span-12 ">
               {/* inner items */}
@@ -60,7 +60,7 @@ const AboutHeader = () => {
         </div>
 
         <div className="pb-[190px]">
-          <p className="text-[22px] font-medium font-poppins">
+          <p className="md:text-[22px] text-[17px] font-medium font-poppins">
             Kachem Young Initiative is a non-profit NGO founded in 2017 to
             administer community resilience towards solving problems of poverty
             among grassroots people, devaluation of education especially girl
@@ -81,8 +81,8 @@ const AboutHeader = () => {
           />
         </div>
 
-        <div className="pt-[80px]">
-          <p className="text-[22px] font-medium font-poppins">
+        <div className="md:pt-[80px] pt-10">
+          <p className="md:text-[22px] text-[17px] font-medium font-poppins">
             From our research, we put together vital statistics that inspired
             the foundation of our organisations purpose -
             <ol className="list-disc pl-10 pt-5">
@@ -123,8 +123,8 @@ const AboutHeader = () => {
           </div>
         </div>
 
-        <div className="pt-[80px]">
-          <p className="text-[22px] font-medium font-poppins">
+        <div className="md:pt-[80px] pt-10">
+          <p className="md:text-[22px] text-[17px] md:font-medium font-poppins">
             <ul className="flex flex-col gap-6">
               <li>
                 <p>
@@ -190,8 +190,8 @@ const AboutHeader = () => {
           </div>
         </div>
 
-        <div className="pt-[80px]">
-          <p className="text-[22px] font-medium font-poppins">
+        <div className="md:pt-[80px] pt-10">
+          <p className="md:text-[22px] text-[17px] font-medium font-poppins">
             <ul className="flex flex-col gap-6">
               <li>
                 <p>
@@ -223,16 +223,16 @@ const AboutHeader = () => {
         <div className="grid grid-cols-12 md:h-[446.93px] h-full gap-0">
           <div className="col-span-12 md:col-span-6 md:order-none order-2 h-full w-full ">
             <div className="bg-[#A3AAB2] flex flex-col w-full h-full items-start justify-center gap-[25.33px] mx-auto md:px-0 px-5 pt-10 md:pb-0 pb-10">
-              <div className="flex justify-center flex-col mx-auto">
-                <h1 className="font-poppins text-[38.4px] text-black font-bold w-full md:w-[564.27px]">
+              <div className="flex justify-center flex-col mx-auto gap-5">
+                <h1 className="font-poppins md:text-[38.4px] text-3xl text-black font-bold w-full md:w-[564.27px]">
                   Join a global team of change-makers.
                 </h1>
-                <p className="font-poppins font-normal text-[21.33px] w-full md:w-[520.53px] flex items-start">
+                <p className="font-poppins font-normal md:text-[21.33px] text-[17px] w-full md:w-[520.53px] flex items-start">
                   Your time, compassion, and skills can create a world of
                   difference. Together, let&apos;s spread smiles, touch lives,
                   and make memories. Join us in making every moment count.
                 </p>
-                <div className="flex mt-[20px]">
+                <div className="flex mt-0 md:mt-[20px]">
                   <div className="lg:flex flex Justify-center max-lg:flex-col lg:px-0  mb-3 lg:mb-0 text-left lg:space-x-4 uppercase">
                     <a
                       href=""
