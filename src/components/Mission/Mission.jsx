@@ -11,7 +11,7 @@ const Mission = () => {
       <div>
       <div className="pt-[5rem] md:px-0 px-5 md:pt-[147px] max-w-[1140px] w-full mx-auto flex flex-col gap-[104px]">
         <div>
-          <p className="text-black text-[18px] md:text-[26px] font-poppins md:font-medium font-[600] text-center ">
+          <p className="text-black text-[16px] md:text-[26px] text-center font-poppins md:font-medium ">
             Our mission is to advocate and promote entrepreneurial education,
             advocate for equity, inclusion, and access in Africa’s education,
             and mitigate the odds against literacy and minority rights.{" "}
@@ -80,7 +80,7 @@ const Mission = () => {
       <div>
         <div className="bg-[#157d9a3f] mt-[86px]">
             <div className="max-w-[1140px] mx-auto w-full">
-            <p className="md:px-[80px] px-5 py-[80px] font-poppins text-center font-[600] text-secondary text-[18px] md:text-[25px]">
+            <p className="md:px-[80px] px-5 py-[80px] font-poppins text-center font-[600] text-secondary text-[16px] md:text-[25px]">
             Kachem Young Initiative is a non-profit NGO founded in 2017 to administer community resilience towards solving problems of poverty among grassroots people, devaluation of education especially girl child education, female discrimination, and exclusion of persons with disabilities in Ebonyi State. <br className="md:hidden block"/><a href="#" className="text-primary">Learn more</a>
             </p>
             </div>
