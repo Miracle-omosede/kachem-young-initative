@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar/Navbar';
+import JoinHero from '@/components/joinHero/joinHero';
 import React from 'react'
 
 const page = () => {
@@ -10,7 +11,7 @@ const page = () => {
             </div>
           </div>
           <div>
-          
+            <JoinHero/>
           </div>
         </main>
       )
